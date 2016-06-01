@@ -1,0 +1,32 @@
+<html>
+
+<head>
+</head>
+<body ng-app="myApp">
+
+	<div>
+		<ul>
+			<li>
+				<a ui-sref=".home">Home page</a>
+			</li>
+			<li>
+				<a ui-sref=".admin">Admin panel</a>
+			</li>
+		</ul>
+	</div>
+
+	<div ui-view></div>
+
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-permission/dist/angular-permission.js"></script>
+	<script src="bower_components/angular-permission/dist/angular-permission-ui.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+	<script src="app.js"></script>
+
+	<script src="services/userAuthService.js"></script>
+	<script src="services/permissionService.js"></script>
+
+</body>
+
+</html>

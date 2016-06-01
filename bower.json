@@ -1,0 +1,22 @@
+{
+  "name": "angular_permission_issue",
+  "authors": [
+    "Vladimir <ryzhak.vladimir@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-permission": "^3.1.5",
+    "angular-ui-router": "^0.3.0",
+    "angular": "^1.5.6"
+  }
+}
